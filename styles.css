@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+    padding:40px;
+    min-width: 375px;
+    width: 100%;
+}
+
+.conteiner{
+    background: linear-gradient(175deg,hsl(213, 19%, 18%),hsl(216, 12%, 8%));
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    max-width: 375px;
+}
+.conteiner p{
+    color: hsl(216, 12%, 54%);
+}
+.conteiner ul li .btn{
+    color: hsl(216, 12%, 54%);
+    background-color: hsl(213, 19%, 18%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+}
+.conteiner ul li .btn:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+.conteiner ul li .btn:active{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.star{
+    background-color: hsl(213, 19%, 22%);
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gray{
+    background-color: hsl(216, 12%, 54%);
+    border-radius: 4px;
+    width: 50%;
+    text-align: center;
+    color: hsl(25, 97%, 53%);
+}
+
+.hidden{
+    display: none;
+}
+
+#submit,
+#rate-again{
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    transition: transform 0.5s;
+}
+button:hover{
+    transform: scale(1.15);
+}
+button:active{
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+
+.main-conteiner h2,
+.main-conteiner .star{
+    align-self: baseline;
+}
+.main-conteiner ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
